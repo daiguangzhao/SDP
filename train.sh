@@ -1,6 +1,6 @@
 #!/bin/bash
 killall python
-source /root/anaconda3/bin/activate /root/anaconda3/envs/orvit
+source /root/anaconda3/bin/activate /root/anaconda3/envs/SDP
 # python run_with_submitit_finetune_classification.py \
 #     --pretrain-model pretrained_weight/clip_openai_timesformer_base.narrator_rephraser.ep_0005.md5sum_d73a9c.pth \
 #     --use-vn-classifier \
