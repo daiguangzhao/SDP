@@ -21,7 +21,7 @@ Please follow the instructions in <a href="https://github.com/facebookresearch/L
 ## Train  
 #### EK100 (train & test)
 python run_with_submitit_finetune_classification.py \
-    --pretrain-model p<a href="https://dl.fbaipublicfiles.com/lavila/checkpoints/dual_encoders/ego4d/clip_openai_timesformer_base.narrator_rephraser.ep_0005.md5sum_d73a9c.pth" target="_blank">clip_openai_timesformer_base.narrator_rephraser.ep_0005.md5sum_d73a9c.pth</a>/ \
+    --pretrain-model <a href="https://dl.fbaipublicfiles.com/lavila/checkpoints/dual_encoders/ego4d/clip_openai_timesformer_base.narrator_rephraser.ep_0005.md5sum_d73a9c.pth" target="_blank">clip_openai_timesformer_base.narrator_rephraser.ep_0005.md5sum_d73a9c.pth</a> \
     --use-vn-classifier \
     --num-classes 97 300 3806 \
     --use-sgd --wd 4e-5 --lr-multiplier-on-backbone 0.1 \
@@ -37,7 +37,7 @@ python run_with_submitit_finetune_classification.py \
     --metadata-train datasets/EGTEA/train_split1.txt \
     --metadata-val datasets/EGTEA/test_split1.txt \
     --root datasets/EGTEA/cropped_clips/ \
-    --pretrain-model p<a href="https://dl.fbaipublicfiles.com/lavila/checkpoints/dual_encoders/ego4d/clip_openai_timesformer_base.narrator_rephraser.ep_0005.md5sum_d73a9c.pth" target="_blank">clip_openai_timesformer_base.narrator_rephraser.ep_0005.md5sum_d73a9c.pth</a>/ \
+    --pretrain-model <a href="https://dl.fbaipublicfiles.com/lavila/checkpoints/dual_encoders/ego4d/clip_openai_timesformer_base.narrator_rephraser.ep_0005.md5sum_d73a9c.pth" target="_blank">clip_openai_timesformer_base.narrator_rephraser.ep_0005.md5sum_d73a9c.pth</a> \
     --num-classes 106 \
     --use-sgd \
     --wd 4e-5 \
