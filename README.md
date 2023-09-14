@@ -30,7 +30,7 @@ python run_with_submitit_finetune_classification.py \
     --batch-size 28 \
     --node 1 \
     --resume checkpoint/experiments/lavila_ft/1_85/checkpoint_0035.pt \
-    --evaluate \
+    --evaluate 
 #### EGTEA  
 python run_with_submitit_finetune_classification.py \
     --dataset egtea \
@@ -44,7 +44,7 @@ python run_with_submitit_finetune_classification.py \
     --ngpus 6 \
     --batch-size 28 \
     --use-checkpoint \
-    --node 1 \
+    --node 1 
 ## Test  
 torchrun --nproc_per_node=1 main_finetune_classification.py  \
 --dataset egtea  \
