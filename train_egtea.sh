@@ -1,6 +1,6 @@
 #!/bin/bash
 killall python
-source /root/anaconda3/bin/activate /root/anaconda3/envs/orvit
+source /root/anaconda3/bin/activate /root/anaconda3/envs/SDP
 python run_with_submitit_finetune_classification.py \
     --dataset egtea \
     --metadata-train datasets/EGTEA/train_split1.txt \
